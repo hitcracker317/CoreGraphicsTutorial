@@ -14,6 +14,7 @@
 		65C581291C06DB8B00CE0F25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65C581271C06DB8B00CE0F25 /* LaunchScreen.xib */; };
 		65C581351C06DB8B00CE0F25 /* CoreGraphicsTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C581341C06DB8B00CE0F25 /* CoreGraphicsTutorialTests.swift */; };
 		65C5813F1C06DCF500CE0F25 /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5813E1C06DCF500CE0F25 /* PushButtonView.swift */; };
+		65C581441C06DF6400CE0F25 /* plusButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C581431C06DF6400CE0F25 /* plusButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		65C581331C06DB8B00CE0F25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65C581341C06DB8B00CE0F25 /* CoreGraphicsTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicsTutorialTests.swift; sourceTree = "<group>"; };
 		65C5813E1C06DCF500CE0F25 /* PushButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushButtonView.swift; sourceTree = "<group>"; };
+		65C581431C06DF6400CE0F25 /* plusButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plusButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				65C5811E1C06DB8B00CE0F25 /* AppDelegate.swift */,
 				65C581201C06DB8B00CE0F25 /* ViewController.swift */,
 				65C5813E1C06DCF500CE0F25 /* PushButtonView.swift */,
+				65C581421C06DF5700CE0F25 /* images */,
 				65C581221C06DB8B00CE0F25 /* Main.storyboard */,
 				65C581251C06DB8B00CE0F25 /* Images.xcassets */,
 				65C581271C06DB8B00CE0F25 /* LaunchScreen.xib */,
@@ -113,6 +116,14 @@
 				65C581331C06DB8B00CE0F25 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65C581421C06DF5700CE0F25 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				65C581431C06DF6400CE0F25 /* plusButton.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65C581241C06DB8B00CE0F25 /* Main.storyboard in Resources */,
+				65C581441C06DF6400CE0F25 /* plusButton.png in Resources */,
 				65C581291C06DB8B00CE0F25 /* LaunchScreen.xib in Resources */,
 				65C581261C06DB8B00CE0F25 /* Images.xcassets in Resources */,
 			);
